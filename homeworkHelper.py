@@ -11,8 +11,8 @@ import json
 
 # 以下的csrftoken和sessionid需要改成自己登录后的cookie中对应的字段！！！！而且脚本需在登录雨课堂状态下使用
 # 登录上华工研究生雨课堂，然后按F12-->选Application-->找到它的cookies，寻找csrftoken和sessionid字段，并复制到下面两行即可
-csrftoken = "yours" #需改成自己的
-sessionid = "yours" #需改成自己的
+csrftoken = "y9Yi4rakdHwvJVU3yOVoLDqGcZU3RIfa" #需改成自己的
+sessionid = "lhr2oim8wb15vil3dwafvpgqm197ayll" #需改成自己的
 
 # 会自动跳过已经完成的题目，无须担心，如果运行一遍后，仍有遗漏，再次运行即可。
 # 因为作业答案在网页接口中返回了，因此本脚本才能自动答题
